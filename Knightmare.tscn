@@ -1,0 +1,33 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://control.gd" type="Script" id=1]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Panic" type="Button" parent="."]
+margin_left = 689.0
+margin_top = 423.0
+margin_right = 1007.0
+margin_bottom = 583.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Direct" type="Button" parent="."]
+margin_left = 352.0
+margin_top = 513.0
+margin_right = 670.0
+margin_bottom = 593.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Reason" type="Button" parent="."]
+margin_left = 19.0
+margin_top = 423.0
+margin_right = 337.0
+margin_bottom = 583.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
